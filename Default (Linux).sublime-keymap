@@ -1,6 +1,6 @@
 [
     {
-        "keys": ["ctrl+down"],
+        "keys": ["alt+down"],
         "command": "coq_next_statement",
         "context":  [
             {
@@ -9,7 +9,7 @@
         ]
     },
     {
-        "keys": ["ctrl+up"],
+        "keys": ["alt+up"],
         "command": "coq_undo_statement",
         "context":  [
             {
@@ -18,7 +18,7 @@
         ]
     },
     {
-        "keys": ["ctrl+escape"],
+        "keys": ["alt+escape"],
         "command": "coq_stop",
         "context":  [
             {
@@ -27,7 +27,7 @@
         ]
     },
     {
-        "keys": ["ctrl+backspace"],
+        "keys": ["alt+left"],
         "command": "coqtop_clear",
         "context":  [
             {
@@ -36,7 +36,7 @@
         ]
     },
     {
-        "keys": ["ctrl+enter"],
+        "keys": ["alt+enter"],
         "command": "coqtop_success",
         "context": [
             {
